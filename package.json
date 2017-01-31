@@ -1,0 +1,24 @@
+{
+  "name": "express-premier-league-table",
+  "version": "1.0.0",
+  "description": "Displays the Premier League Table",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aniketdatta47/express-premier-league-table.git"
+  },
+  "author": "Aniket Datta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aniketdatta47/express-premier-league-table/issues"
+  },
+  "homepage": "https://github.com/aniketdatta47/express-premier-league-table#readme",
+  "dependencies": {
+    "ejs": "^2.5.5",
+    "express": "^4.14.1"
+  }
+}
