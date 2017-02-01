@@ -1,0 +1,20 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Team</th>
+      <th>Games</th>
+      <th>Points</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% teams.forEach(function(team) { %>
+      <tr>
+        <td><img src="<%- team.crestURI -%>" height="50px" width="50px"/></td>
+        <td><%- team.teamName -%></td>
+        <td><%- team.playedGames -%></td>
+        <td><%- team.points -%></td>
+      </tr>
+    <% }); %>
+  </tbody>
+</table>

@@ -1,22 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-      <% include ../partials/head %>
+      <%- include('../partials/head') -%>
     </head>
     <body>
       <header>
-        <% include ../partials/nav %>
+        <%- include('../partials/nav') -%>
       </header>
       <div class="container">
-        <div class="row justify-content-md-center">
-          <div class="col-12 col-md-auto" id="table-container">
-            Loading...
-          </div>
-        </div>
+        <%- include('epl-table', {'data': data}) -%>
       </div>
-
     </body>
     <footer>
-      <% include ../partials/footer %>
+      <%- include('../partials/footer') -%>
     </footer>
 </html>

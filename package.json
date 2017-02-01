@@ -19,6 +19,7 @@
   "homepage": "https://github.com/aniketdatta47/express-premier-league-table#readme",
   "dependencies": {
     "ejs": "^2.5.5",
-    "express": "^4.14.1"
+    "express": "^4.14.1",
+    "superagent": "^3.4.1"
   }
 }

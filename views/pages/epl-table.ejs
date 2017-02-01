@@ -1,0 +1,12 @@
+<div class="row f-row baseline">
+  <h2><%- data.leagueCaption -%></h2>
+  <span>day <%- data.matchday -%></span>
+</div>
+<div class="row justify-content-md-center">
+  <div class="col-12 col-md-auto" id="table-container">
+
+    <div class="row">
+      <%- include('../partials/table', {'teams': data.standing}) -%>
+    </div>
+  </div>
+</div>
