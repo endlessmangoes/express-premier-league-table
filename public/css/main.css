@@ -41,3 +41,40 @@
   border-top: 2px solid #546E7A;
   border-bottom: 2px solid #546E7A;
 }
+
+/* orig
+@media (min-width: 576px) {
+  .hide-on-mobile {
+    display: none;
+  }
+
+  .table {
+    font-size: 2.4em;
+  }
+
+  img {
+    width: 192px;
+    height: 192px;
+  }
+}*/
+
+@media screen and (max-width: 576px) {
+  .hide-on-mobile {
+    display: none;
+  }
+
+  .table {
+    font-size: 1.4em;
+  }
+
+  img {
+    width: 1.4em;
+    height: 1.4em;
+  }
+}
+
+@media screen and (max-width: 750px) and (min-width:576px) {
+  .hide-on-tablet {
+    display: none;
+  }
+}

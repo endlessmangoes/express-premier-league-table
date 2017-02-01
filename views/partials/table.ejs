@@ -5,11 +5,11 @@
       <th></th>
       <th>Games</th>
       <th><strong>Points</strong></th>
-      <th>Wins</th>
-      <th>Draws</th>
-      <th>Losses</th>
-      <th>Goals</th>
-      <th>GD</th>
+      <th class="hide-on-mobile">Wins</th>
+      <th class="hide-on-mobile">Draws</th>
+      <th class="hide-on-mobile">Losses</th>
+      <th class="hide-on-mobile hide-on-tablet">Goals</th>
+      <th class="hide-on-mobile hide-on-tablet">GD</th>
     </tr>
   </thead>
   <tbody>
@@ -19,12 +19,11 @@
         <td><%- team.teamName -%></td>
         <td><%- team.playedGames -%></td>
         <td><strong><%- team.points -%></strong></td>
-        <td><%- team.wins -%></td>
-        <td><%- team.draws -%></td>
-        <td><%- team.losses -%></td>
-        <td><%- team.goals -%></td>
-        <td><%- team.goalDifference -%></td>
-
+        <td class="hide-on-mobile"><%- team.wins -%></td>
+        <td class="hide-on-mobile"><%- team.draws -%></td>
+        <td class="hide-on-mobile"><%- team.losses -%></td>
+        <td class="hide-on-mobile hide-on-tablet"><%- team.goals -%></td>
+        <td class="hide-on-mobile hide-on-tablet"><%- team.goalDifference -%></td>
       </tr>
     <% }); %>
   </tbody>
