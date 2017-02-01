@@ -14,3 +14,30 @@
 .purple {
   background: #4A148C;
 }
+
+.title {
+  margin: 1em 0;
+}
+
+.title.row > span {
+  color: #757575;
+  font-size: 1.2em;
+}
+
+.epl-table td {
+  vertical-align: middle;
+}
+
+.epl-table tbody tr:hover {
+  background: #ECEFF1;
+}
+
+.epl-table tbody > tr:nth-child(5) {
+  border-top: 2px solid #546E7A;
+  border-bottom: 2px solid #546E7A;
+}
+
+.epl-table tbody > tr:nth-last-child(3) {
+  border-top: 2px solid #546E7A;
+  border-bottom: 2px solid #546E7A;
+}
