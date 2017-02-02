@@ -1,80 +1,73 @@
 .f-row {
-  display: flex;
-  flex-flow: row nowrap;
+    display: flex;
+    flex-flow: row nowrap;
 }
 
 .raised {
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .26);
 }
 
 .baseline {
-  align-items: baseline;
+    align-items: baseline;
 }
 
-.purple {
-  background: #4A148C;
+.nav-white {
+    background: #FAFAFA;
+}
+
+.navbar-brand {
+    font-size: 1.6rem;
 }
 
 .title {
-  margin: 1em 0;
+    padding-left: 1rem;
 }
 
-.title.row > span {
-  color: #757575;
-  font-size: 1.2em;
+.title.row>span {
+    color: #616161;
+    padding-right: 3rem;
+    font-size: 1.4rem;
+}
+
+.bg-container {
+    min-height: 20vh;
+    background: #FFD600;
+}
+
+.epl-table th {
+    color: #BDBDBD;
 }
 
 .epl-table td {
-  vertical-align: middle;
+    vertical-align: middle;
 }
 
 .epl-table tbody tr:hover {
-  background: #ECEFF1;
+    background: #ECEFF1;
 }
 
-.epl-table tbody > tr:nth-child(5) {
-  border-top: 2px solid #546E7A;
-  border-bottom: 2px solid #546E7A;
+.epl-table tbody>tr:nth-child(5) {
+    border-top: 2px solid #546E7A;
+    border-bottom: 2px solid #546E7A;
 }
 
-.epl-table tbody > tr:nth-last-child(3) {
-  border-top: 2px solid #546E7A;
-  border-bottom: 2px solid #546E7A;
+.epl-table tbody>tr:nth-last-child(3) {
+    border-top: 2px solid #546E7A;
+    border-bottom: 2px solid #546E7A;
 }
 
-/* orig
-@media (min-width: 576px) {
-  .hide-on-mobile {
-    display: none;
-  }
-
-  .table {
-    font-size: 2.4em;
-  }
-
-  img {
-    width: 192px;
-    height: 192px;
-  }
-}*/
-
-@media screen and (max-width: 576px) {
-  .hide-on-mobile {
-    display: none;
-  }
-
-  .table {
-    font-size: 1.4em;
-  }
-
-  img {
-    width: 1.4em;
-    height: 1.4em;
-  }
+@media (max-width: 576px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    img {
+        width: 1.4rem;
+        height: 1.4rem;
+    }
 }
 
-@media screen and (max-width: 750px) and (min-width:576px) {
-  .hide-on-tablet {
-    display: none;
-  }
+@media (min-width:576px) and (max-width: 992px) {
+    .hide-on-tablet {
+        display: none;
+    }
 }
