@@ -10,5 +10,5 @@ Express based app - displays the EPL table.
 
 ## Resources
 
-** Bootstrap 4 
-** Express
+* Bootstrap 4
+* Express
