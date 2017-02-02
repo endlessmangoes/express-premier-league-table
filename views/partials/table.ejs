@@ -16,8 +16,8 @@
   <tbody>
     <% teams.forEach(function(team) { %>
       <tr>
-        <td><img src="<%- team.crestURI -%>" height="50px" width="50px"/></td>
         <td><%- team.position -%></td>
+        <td><img defer src="<%- team.crestURI -%>" height="50px" width="50px"/></td>
         <td><%- team.teamName -%></td>
         <td><%- team.playedGames -%></td>
         <td><strong><%- team.points -%></strong></td>
